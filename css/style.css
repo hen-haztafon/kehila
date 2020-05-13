@@ -12,3 +12,10 @@ body {
     color: #777;
 }
 
+.header {
+    height: 50vh;
+    background-image: url(../img/henhatzafon-image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
