@@ -23,9 +23,35 @@ body {
 .logo-box {
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
 }
 
 .logo {
     height: 65px;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.heading-primary {
+    color: rgb(132, 255, 128);
+    text-shadow: 2px 2px #000;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 13px;
 }
