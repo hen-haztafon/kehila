@@ -101,16 +101,20 @@ body {
     top: 5px;
     
 }
+.test {
+    position: relative;
+}
 
 .times {
-    text-align: right;
-    width: 40%;
+    position: absolute;
+    right: 10px;
+    width: 30%;
     margin: 5%;
     border-style: solid;
     text-align: right;
     right: 10px;
     top: 5px;
-    font-size: x-large;
+    font-size: 2vw;
 }
 
 .times p {
