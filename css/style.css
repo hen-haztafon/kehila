@@ -94,3 +94,25 @@ body {
         transform: translate(0);
     }
 }
+
+.heb-date {
+    text-align: right;
+    right: 10px;
+    top: 5px;
+    
+}
+
+.times {
+    text-align: right;
+    width: 40%;
+    margin: 5%;
+    border-style: solid;
+    text-align: right;
+    right: 10px;
+    top: 5px;
+    font-size: x-large;
+}
+
+.times p {
+    margin: 10px;
+}
