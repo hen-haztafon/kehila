@@ -95,44 +95,71 @@ body {
     }
 }
 
+.content {
+    display: grid;
+    
+    grid-template-areas:    "shabbat pay heb-date"
+                            "shab-times messages times";
+                            
+    /*grid-auto-rows: max-content;*/
+    grid-template-columns: 1.2fr 1.5fr 1fr;
+}
+
 .heb-date {
     text-align: right;
     margin-right: 7%;
     font-size: 1.5vw;
     
 }
-.test {
-    position: relative;
+
+.pay {
+    text-align: center;
+    font-size: 1vw;
 }
+
+.shabbat {
+    margin-left: 3%;
+    font-size: 1vw;
+    
+}
+
 
 .times {
-    position: absolute;
-    right: 6%;
-    width: 30%;
-    margin-right: 5%;
-    margin-top: 1%;
+    
+    margin: 2%;
     border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(240, 215, 240);
     text-align: right;
-    right: 10px;
-    top: 5px;
-    font-size: 2vw;
+    
+    font-size: 1.7vw;
 }
 
+.shab-times {
+    
+    margin: 2%;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(240, 215, 240);
+    font-size: 1.7vw;
+    text-align: right;
+}
 .times p {
     margin: 10px;
 }
 
+.shab-times p {
+    margin: 10px;
+}
+
 .messages {
-    position: absolute;
-    right: 40%;
-    width: 40%;
-    margin-right: 45%;
-    margin-top: 1%;
+    
+    margin: 2%;
     border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(240, 215, 240);
     text-align: right;
-    right: 10px;
-    top: 5px;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 .messages p {
