@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Bellefair", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
@@ -103,6 +103,7 @@ body {
                             
     /*grid-auto-rows: max-content;*/
     grid-template-columns: 1.2fr 1.5fr 1fr;
+    color: black;
 }
 
 .heb-date {
@@ -129,7 +130,11 @@ body {
     margin: 2%;
     border-style: solid;
     border-radius: 15px;
-    background-color: rgb(240, 215, 240);
+    /* background-color: rgb(240, 215, 240); */
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/prayer.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
     text-align: right;
     
     font-size: 1.7vw;
@@ -140,7 +145,13 @@ body {
     margin: 2%;
     border-style: solid;
     border-radius: 15px;
-    background-color: rgb(240, 215, 240);
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/shabbat.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+
+    /* opacity: .1; */
+    /* background-color: rgb(240, 215, 240); */
     font-size: 1.7vw;
     text-align: right;
 }
@@ -157,7 +168,11 @@ body {
     margin: 2%;
     border-style: solid;
     border-radius: 15px;
-    background-color: rgb(240, 215, 240);
+    /* background-color: rgb(240, 215, 240); */
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/happy.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
     text-align: right;
     font-size: 1.7vw;
 }
