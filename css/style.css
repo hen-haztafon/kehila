@@ -114,7 +114,8 @@ body {
 }
 
 .pay {
-    text-align: center;
+    text-align: right;
+    margin-right: 33%;
     font-size: 1.5vw;
 }
 
