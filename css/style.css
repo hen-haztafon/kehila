@@ -181,3 +181,51 @@ body {
 .messages p {
     margin: 10px;
 }
+
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, .8);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.popup__content {
+    padding: 3.5%;
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    overflow: scroll;
+    text-align: right;
+    margin: 5px;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.close {
+    position: absolute; 
+    top: 2%;
+    left: 2%;   
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.close:link {
+    color: black;
+    
+}
