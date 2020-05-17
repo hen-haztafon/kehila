@@ -117,7 +117,7 @@ body {
     /* grid-template-areas:    "shabbat pay heb-date" */
                             /* "shab-times messages times"; */
                             
-    grid-auto-rows: max-content;
+    grid-auto-rows: minmax(300px, max-content);
     /* width: 90%; */
     /* grid-template-columns: 1.2fr 1.5fr 1fr; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -180,6 +180,16 @@ body {
 
 .shab-times p {
     margin: 1rem;
+}
+
+.jerusalem {
+    margin: 2%;
+    border-style: solid;
+    border-radius: 1.5rem;
+    background-image: url(../img/JerusalemDay.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .messages {
