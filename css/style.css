@@ -179,21 +179,36 @@ body {
     font-size: 1.7rem;
 }
 
-.shab-times {
-    
-    margin: 2%;
-    border-style: solid;
-    border-radius: 1.5rem;
-    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/shabbat.jpg);
-    background-size: contain;
-    background-repeat: repeat;
-    background-position: center;
-
-    /* opacity: .1; */
-    /* background-color: rgb(240, 215, 240); */
-    font-size: 1.7rem;
-    text-align: right;
+.day {
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/shul.jpeg);
 }
+
+.shab {
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/shabbat.jpg);
+}
+
+.shav {
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/shavuot.jpg);
+}
+
+.torah {
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)), url(../img/sefer_torah.jpeg);
+}
+
+.torah img {
+    width: 90%;
+    height: 50%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.price {
+    height: 100px;
+    width: 90%;
+    font-size: 1vw;
+    overflow: scroll;
+}
+
 .times p {
     margin: 1rem;
 }
@@ -202,14 +217,10 @@ body {
     margin: 1rem;
 }
 
-.jerusalem {
-    margin: 2%;
-    border-style: solid;
-    border-radius: 1.5rem;
-    background-image: url(../img/JerusalemDay.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.tikun {
+
+    background-image: url(../img/tikun.jpeg);
+    background-repeat: no-repeat
 }
 
 .messages {
